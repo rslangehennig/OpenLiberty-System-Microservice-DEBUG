@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archive>
+    <dir sourceOnDisk="/Users/rlange/Documents/randyl/vs-code-git/OpenLiberty-System-Microservice/src/main/webapp" targetInArchive="/"/>
+    <dir sourceOnDisk="/Users/rlange/Documents/randyl/vs-code-git/OpenLiberty-System-Microservice/target/classes" targetInArchive="/WEB-INF/classes"/>
+    <file sourceOnDisk="/Users/rlange/Documents/randyl/vs-code-git/OpenLiberty-System-Microservice/target/tmp/META-INF/MANIFEST.MF" targetInArchive="/META-INF/MANIFEST.MF"/>
+</archive>

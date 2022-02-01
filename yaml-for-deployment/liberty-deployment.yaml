@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: openliberty-system-microservice
+  name: openliberty-system-microservice
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: openliberty-system-microservice
+  template:
+    metadata:
+      labels:
+        app: openliberty-system-microservice
+        deploymentconfig: openliberty-system-microservice
+    spec:
+      containers:
+      - image: quay.io/rslangehennig0/openliberty-system-microservice:@BUILDTAG@
+        imagePullPolicy: IfNotPresent
+        name: openliberty-system-microservice
+        ports:
+        - containerPort: 9080
+          protocol: TCP
+        - containerPort: 9443
+          protocol: TCP

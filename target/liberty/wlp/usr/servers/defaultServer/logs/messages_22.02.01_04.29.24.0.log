@@ -1,0 +1,96 @@
+********************************************************************************
+product = Open Liberty 22.0.0.1 (wlp-1.0.60.cl220120220103-1900)
+wlp.install.dir = /Users/rlange/Documents/randyl/vs-code-git/OpenLiberty-System-Microservice/target/liberty/wlp/
+java.home = /Library/Java/JavaVirtualMachines/jdk-12.0.2.jdk/Contents/Home
+java.version = 12.0.2
+java.runtime = Java(TM) SE Runtime Environment (12.0.2+10)
+os = Mac OS X (10.16; x86_64) (en_US)
+process = 87357@Randys-MacBook-Pro.local
+********************************************************************************
+[1/31/22, 19:49:51:650 CST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: The server defaultServer has been launched.
+[1/31/22, 19:49:52:252 CST] 00000020 com.ibm.ws.config.xml.internal.ServerXMLConfiguration        A CWWKG0093A: Processing configuration drop-ins resource: /Users/rlange/Documents/randyl/vs-code-git/OpenLiberty-System-Microservice/target/liberty/wlp/usr/servers/defaultServer/configDropins/overrides/liberty-plugin-variable-config.xml
+[1/31/22, 19:49:52:318 CST] 00000027 com.ibm.ws.logging.internal.TraceSpecification               I TRAS0018I: The trace state has been changed. The new trace state is *=info:com.ibm.ws.microprofile.health.*=all.
+[1/31/22, 19:49:52:437 CST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: The kernel started after 5.974 seconds
+[1/31/22, 19:49:52:476 CST] 0000002b com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Feature update started.
+[1/31/22, 19:49:53:267 CST] 00000020 .apache.cxf.cxf.core.3.2:1.0.60.cl220120220103-1900(id=183)] I Aries Blueprint packages not available. So namespaces will not be registered
+[1/31/22, 19:49:53:310 CST] 0000001f com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0007I: The security service is starting...
+[1/31/22, 19:49:53:426 CST] 00000023 com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitoring dropins for applications.
+[1/31/22, 19:49:53:496 CST] 00000023 com.ibm.ws.cache.ServerCache                                 I DYNA1001I: WebSphere Dynamic Cache instance named baseCache initialized successfully.
+[1/31/22, 19:49:53:498 CST] 00000023 com.ibm.ws.cache.ServerCache                                 I DYNA1071I: The cache provider default is being used.
+[1/31/22, 19:49:53:499 CST] 00000023 com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[1/31/22, 19:49:53:809 CST] 00000027 com.ibm.ws.ssl.config.WSKeyStore                             A CWPKI0820A: The default keystore has been created using the 'keystore_password' environment variable.
+[1/31/22, 19:49:53:812 CST] 00000027 com.ibm.ws.ssl.config.WSKeyStore                             I CWPKI0802I: Creating the SSL certificate. This may take a few seconds.
+[1/31/22, 19:49:53:827 CST] 00000036 com.ibm.ws.security.token.ltpa.LTPAKeyInfoManager            I CWWKS4103I: Creating the LTPA keys. This may take a few seconds.
+[1/31/22, 19:49:53:850 CST] 0000001f ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1123I: The collective authentication plugin with class name NullCollectiveAuthenticationPlugin has been activated. 
+[1/31/22, 19:49:54:141 CST] 00000036 com.ibm.ws.security.token.ltpa.LTPAKeyInfoManager            A CWWKS4104A: LTPA keys created in 0.315 seconds. LTPA key file: /Users/rlange/Documents/randyl/vs-code-git/OpenLiberty-System-Microservice/target/liberty/wlp/usr/servers/defaultServer/resources/security/ltpa.keys
+[1/31/22, 19:49:54:146 CST] 00000036 com.ibm.ws.security.token.ltpa.internal.LTPAKeyCreateTask    I CWWKS4105I: LTPA configuration is ready after 0.323 seconds.
+[1/31/22, 19:49:54:179 CST] 0000001f com.ibm.ws.session.WASSessionCore                            I SESN8501I: The session manager did not find a persistent storage location; HttpSession objects will be stored in the local application server's memory.
+[1/31/22, 19:49:54:398 CST] 0000001f .microprofile.metrics.internal.monitor.MonitorMetricsHandler I CWPMI2003I: Monitoring metrics can be retrieved through mpMetrics.
+[1/31/22, 19:49:54:667 CST] 00000043 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application guide-getting-started.
+[1/31/22, 19:49:54:668 CST] 00000043 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The guide-getting-started application is using the loose application definition at the /Users/rlange/Documents/randyl/vs-code-git/OpenLiberty-System-Microservice/target/liberty/wlp/usr/servers/defaultServer/apps/guide-getting-started.war.xml location.
+[1/31/22, 19:49:54:874 CST] 00000041 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: PublicMicroProfileMetrics.
+[1/31/22, 19:49:54:874 CST] 00000042 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: health.
+[1/31/22, 19:49:54:874 CST] 00000040 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: ibm/api.
+[1/31/22, 19:49:54:878 CST] 00000041 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module PublicMicroProfileMetrics has been bound to default_host.
+[1/31/22, 19:49:54:879 CST] 00000040 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module ibm/api has been bound to default_host.
+[1/31/22, 19:49:54:878 CST] 00000042 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module health has been bound to default_host.
+[1/31/22, 19:49:54:880 CST] 00000041 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://192.168.1.55:9080/metrics/
+[1/31/22, 19:49:54:882 CST] 00000042 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://192.168.1.55:9080/health/
+[1/31/22, 19:49:54:883 CST] 00000040 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://192.168.1.55:9080/ibm/api/
+[1/31/22, 19:49:54:935 CST] 00000043 org.jboss.weld.Version                                       I WELD-000900: 3.1.8 (Final)
+[1/31/22, 19:49:54:961 CST] 00000046 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/ibm/api
+[1/31/22, 19:49:54:961 CST] 00000045 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/health
+[1/31/22, 19:49:54:961 CST] 00000047 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/metrics
+[1/31/22, 19:49:54:962 CST] 00000027 com.ibm.ws.ssl.config.WSKeyStore                             A CWPKI0803A: SSL certificate created in 1.150 seconds. SSL key file: /Users/rlange/Documents/randyl/vs-code-git/OpenLiberty-System-Microservice/target/liberty/wlp/usr/servers/defaultServer/resources/security/key.p12
+[1/31/22, 19:49:54:963 CST] 00000027 com.ibm.ws.ssl.config.WSKeyStore                             I Successfully loaded default keystore: /Users/rlange/Documents/randyl/vs-code-git/OpenLiberty-System-Microservice/target/liberty/wlp/usr/servers/defaultServer/resources/security/key.p12 of type: PKCS12
+[1/31/22, 19:49:55:020 CST] 00000046 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/31/22, 19:49:55:027 CST] 00000047 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/31/22, 19:49:55:028 CST] 00000045 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/31/22, 19:49:55:177 CST] 00000046 com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[1/31/22, 19:49:55:202 CST] 00000045 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.health.3.0.internal] [/health] [HealthCheckReadinessServlet]: Initialization successful.
+[1/31/22, 19:49:55:204 CST] 00000045 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.health.3.0.internal] [/health] [HealthCheckServlet]: Initialization successful.
+[1/31/22, 19:49:55:205 CST] 00000045 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.health.3.0.internal] [/health] [HealthCheckLivenessServlet]: Initialization successful.
+[1/31/22, 19:49:55:264 CST] 00000047 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [io.openliberty.microprofile.metrics.internal.public] [/metrics] [PublicMetricsRESTProxyServlet]: Initialization successful.
+[1/31/22, 19:49:55:295 CST] 00000048 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /Users/rlange/Documents/randyl/vs-code-git/OpenLiberty-System-Microservice/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[1/31/22, 19:49:55:795 CST] 00000043 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: Liberty Project.
+[1/31/22, 19:49:55:796 CST] 00000043 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module Liberty Project has been bound to default_host.
+[1/31/22, 19:49:55:796 CST] 00000043 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://192.168.1.55:9080/dev/
+[1/31/22, 19:49:55:801 CST] 00000051 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/dev
+[1/31/22, 19:49:55:801 CST] 00000051 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/31/22, 19:49:55:816 CST] 00000051 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: Application guide-getting-started started in 1.150 seconds.
+[1/31/22, 19:49:55:827 CST] 0000002f com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /Users/rlange/Documents/randyl/vs-code-git/OpenLiberty-System-Microservice/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[1/31/22, 19:49:55:831 CST] 0000002b com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: TCP Channel defaultHttpEndpoint has been started and is now listening for requests on host *  (IPv6) port 9080.
+[1/31/22, 19:49:55:833 CST] 0000002b com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: TCP Channel defaultHttpEndpoint-ssl has been started and is now listening for requests on host *  (IPv6) port 9443.
+[1/31/22, 19:49:55:851 CST] 0000002b com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: The server installed the following features: [cdi-2.0, distributedMap-1.0, jaxrs-2.1, jaxrsClient-2.1, jndi-1.0, json-1.0, jsonp-1.1, monitor-1.0, mpConfig-2.0, mpHealth-3.0, mpMetrics-3.0, servlet-4.0, ssl-1.0].
+[1/31/22, 19:49:55:852 CST] 0000002b com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Feature update completed in 3.417 seconds.
+[1/31/22, 19:49:55:852 CST] 0000002b com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: The defaultServer server is ready to run a smarter planet. The defaultServer server started in 9.392 seconds.
+[1/31/22, 19:49:58:156 CST] 00000052 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://192.168.1.55:9080/dev/
+[1/31/22, 19:49:58:198 CST] 00000052 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application guide-getting-started has stopped successfully.
+[1/31/22, 19:49:58:203 CST] 00000052 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application guide-getting-started.
+[1/31/22, 19:49:58:203 CST] 00000052 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The guide-getting-started application is using the loose application definition at the /Users/rlange/Documents/randyl/vs-code-git/OpenLiberty-System-Microservice/target/liberty/wlp/usr/servers/defaultServer/apps/guide-getting-started.war.xml location.
+[1/31/22, 19:49:58:219 CST] 00000045 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /Users/rlange/Documents/randyl/vs-code-git/OpenLiberty-System-Microservice/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[1/31/22, 19:49:58:358 CST] 00000052 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: Liberty Project.
+[1/31/22, 19:49:58:358 CST] 00000052 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module Liberty Project has been bound to default_host.
+[1/31/22, 19:49:58:358 CST] 00000052 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://192.168.1.55:9080/dev/
+[1/31/22, 19:49:58:359 CST] 00000051 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/dev
+[1/31/22, 19:49:58:360 CST] 00000051 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/31/22, 19:49:58:362 CST] 00000051 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: The application guide-getting-started updated in 0.159 seconds.
+[1/31/22, 19:49:58:374 CST] 00000052 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /Users/rlange/Documents/randyl/vs-code-git/OpenLiberty-System-Microservice/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[1/31/22, 19:50:44:027 CST] 0000001c com.ibm.ws.kernel.launch.internal.ServerCommandListener      A CWWKE0055I: Server shutdown requested on Monday, January 31, 2022 at 7:50 PM. The server defaultServer is shutting down.
+[1/31/22, 19:50:44:030 CST] 00000074 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  A CWWKE1100I: Waiting for up to 30 seconds for the server to quiesce.
+[1/31/22, 19:50:44:038 CST] 0000002d com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: TCP Channel defaultHttpEndpoint-ssl has stopped listening for requests on host *  (IPv6) port 9443.
+[1/31/22, 19:50:44:040 CST] 0000002d com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: TCP Channel defaultHttpEndpoint has stopped listening for requests on host *  (IPv6) port 9080.
+[1/31/22, 19:50:44:040 CST] 0000002d com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://192.168.1.55:9080/dev/
+[1/31/22, 19:50:44:041 CST] 0000002d com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://192.168.1.55:9080/metrics/
+[1/31/22, 19:50:44:041 CST] 0000002d com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://192.168.1.55:9080/health/
+[1/31/22, 19:50:44:041 CST] 0000002d com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://192.168.1.55:9080/ibm/api/
+[1/31/22, 19:50:45:047 CST] 00000074 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  I CWWKE1101I: Server quiesce complete.
+[1/31/22, 19:50:45:093 CST] 00000043 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application guide-getting-started has stopped successfully.
+[1/31/22, 19:50:45:164 CST] 00000074 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [io.openliberty.microprofile.metrics.internal.public] [/metrics] [PublicMetricsRESTProxyServlet]: Destroy successful.
+[1/31/22, 19:50:45:175 CST] 00000074 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [io.openliberty.microprofile.health.3.0.internal] [/health] [HealthCheckReadinessServlet]: Destroy successful.
+[1/31/22, 19:50:45:175 CST] 00000074 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [io.openliberty.microprofile.health.3.0.internal] [/health] [HealthCheckLivenessServlet]: Destroy successful.
+[1/31/22, 19:50:45:175 CST] 00000074 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [io.openliberty.microprofile.health.3.0.internal] [/health] [HealthCheckServlet]: Destroy successful.
+[1/31/22, 19:50:45:285 CST] 00000074 .microprofile.metrics.internal.monitor.MonitorMetricsHandler I CWPMI2004I: All monitoring metrics were unregistered from mpMetrics.
+[1/31/22, 19:50:45:336 CST] 00000074 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0009I: The security service has stopped.
+[1/31/22, 19:50:45:350 CST] 00000074 ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1124I: The collective authentication plugin with class name NullCollectiveAuthenticationPlugin has been deactivated. 
+[1/31/22, 19:50:45:703 CST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0036I: The server defaultServer stopped after 59.242 seconds.

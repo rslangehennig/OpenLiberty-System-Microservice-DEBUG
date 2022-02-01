@@ -1,0 +1,24 @@
+********************************************************************************
+product = Open Liberty 22.0.0.1 (wlp-1.0.60.cl220120220103-1900)
+wlp.install.dir = /opt/ol/wlp/
+server.output.dir = /opt/ol/wlp/output/defaultServer/
+java.home = /opt/java/openjdk
+java.version = 11.0.13
+java.runtime = IBM Semeru Runtime Open Edition (11.0.13+8)
+os = Linux (5.10.25-linuxkit; amd64) (en_US)
+process = 1@172.17.0.2
+********************************************************************************
+[2/1/22, 4:29:24:569 UTC] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: The server defaultServer has been launched.
+[2/1/22, 4:29:25:375 UTC] 00000026 com.ibm.ws.config.xml.internal.ServerXMLConfiguration        A CWWKG0093A: Processing configuration drop-ins resource: /opt/ol/wlp/usr/servers/defaultServer/configDropins/defaults/keystore.xml
+[2/1/22, 4:29:25:395 UTC] 00000026 com.ibm.ws.config.xml.internal.ServerXMLConfiguration        A CWWKG0093A: Processing configuration drop-ins resource: /opt/ol/wlp/usr/servers/defaultServer/configDropins/defaults/open-default-port.xml
+[2/1/22, 4:29:25:497 UTC] 0000002d com.ibm.ws.logging.internal.TraceSpecification               I TRAS0018I: The trace state has been changed. The new trace state is *=info:com.ibm.ws.microprofile.health.*=all.
+[2/1/22, 4:29:25:629 UTC] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: The kernel started after 1.58 seconds
+[2/1/22, 4:29:25:629 UTC] 00000031 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Feature update started.
+[2/1/22, 4:29:25:671 UTC] 00000031 com.ibm.ws.kernel.feature.internal.FeatureManager            E CWWKF0001E: A feature definition could not be found for mpconfig-2.0
+[2/1/22, 4:29:25:675 UTC] 00000031 com.ibm.ws.kernel.feature.internal.FeatureManager            E CWWKF0001E: A feature definition could not be found for mpmetrics-3.0
+[2/1/22, 4:29:25:679 UTC] 00000031 com.ibm.ws.kernel.feature.internal.FeatureManager            E CWWKF0001E: A feature definition could not be found for cdi-2.0
+[2/1/22, 4:29:25:683 UTC] 00000031 com.ibm.ws.kernel.feature.internal.FeatureManager            E CWWKF0001E: A feature definition could not be found for jsonp-1.1
+[2/1/22, 4:29:25:691 UTC] 00000031 com.ibm.ws.kernel.feature.internal.FeatureManager            E CWWKF0001E: A feature definition could not be found for mphealth-3.0
+[2/1/22, 4:29:25:697 UTC] 00000031 com.ibm.ws.kernel.feature.internal.FeatureManager            E CWWKF0001E: A feature definition could not be found for jaxrs-2.1
+[2/1/22, 4:29:25:733 UTC] 00000031 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Feature update completed in 0.106 seconds.
+[2/1/22, 4:29:25:738 UTC] 00000031 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: The defaultServer server is ready to run a smarter planet. The defaultServer server started in 1.690 seconds.

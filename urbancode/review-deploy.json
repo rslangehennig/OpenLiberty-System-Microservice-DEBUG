@@ -1,0 +1,16 @@
+{
+    "application": "OpenLiberty-System-Microservice",
+    "applicationProcess": "Deploy-Container-using-Docker",
+    "environment": "REVIEW",
+    "onlyChanged": "false",
+    "properties": {
+       "container-tag": "CONTAINER-TAG"
+    },
+    "versions": [
+        {
+            "version": "VERSION",
+            "component": "OpenLiberty-System-Microservice-WAR-Container"
+        }
+    ]
+}
+
